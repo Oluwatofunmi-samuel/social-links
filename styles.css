@@ -1,0 +1,76 @@
+
+/* General Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/* Profile Image */
+.profile-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-card h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+}
+
+.profile-card p {
+    font-size: 1em;
+    color: #d4d4d4;
+}
+
+/* Social Links */
+.social-link {
+    display: block;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 10px auto;
+    transition: background 0.3s;
+    font-size: 1em;
+    font-weight: bold;
+    width: 90%;
+    max-width: 280px;
+}
+
+.social-link:hover {
+    background: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .profile-card {
+        padding: 15px;
+    }
+    .profile-card h2 {
+        font-size: 1.3em;
+    }
+    .social-link {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
